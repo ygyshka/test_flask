@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-flask"
+version = "0.1.0"
+description = ""
+authors = ["Dmitriy Zemlyankin <ygyshka0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+flask-restful = "^0.3.10"
+sqlalchemy = "^2.0.27"
+flask-sqlalchemy = "^3.1.1"
+flask-migrate = "^4.0.5"
+flask-cors = "^4.0.0"
+pipython = "^2.10.1.1"
+ipython = "^8.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
